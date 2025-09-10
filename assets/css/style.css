@@ -2569,29 +2569,40 @@ img {
   gap: 2rem;
 }
 
+.registry-logos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
 .logo-box {
-  width: 200px;     
-  height: 140px;    
-  overflow: hidden;
+  width: 200px;
+  height: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff;
+  padding: 15px;
+  border: 2px solid #f7f5ee; /* A soft border color from your theme */
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  transition: transform .2s, box-shadow .2s;
+  background-color: #fff;
+  box-shadow: 0px 5px 15px rgba(202, 202, 220, 0.1); /* Subtle shadow like your header */
+  transition: all 0.3s ease;
 }
 
 .logo-box img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
 }
 
-.registry-logos a:hover .logo-box {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+/* On hover, apply the theme's main accent color and a "lift" effect */
+.registry-logo:hover .logo-box {
+  border-color: #b19a56;
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 25px rgba(177, 154, 86, 0.15);
 }
+
 
 
 
