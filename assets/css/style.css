@@ -2570,8 +2570,8 @@ img {
 }
 
 .logo-box {
-  width: 120px;
-  height: 80px;
+  width: 120px;     
+  height: 80px;    
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -2588,10 +2588,13 @@ img {
   object-fit: contain;
 }
 
-.registry-logo:hover .logo-box {
+.registry-logos a:hover .logo-box {
   transform: translateY(-4px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
+
+
+
 
 /*--------------------------------------------------------------
 #1.5	hotel-section 
